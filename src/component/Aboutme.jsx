@@ -1,5 +1,4 @@
 import React from 'react'
-import mypic2 from "../assets/mypic2.png";
 const Aboutme = () => {
   return (
     <>
@@ -7,7 +6,6 @@ const Aboutme = () => {
         <h1 className="text-4xl text-center mt-20 mb-10">About Me</h1>
         <div className="lg:flex items-center block mx-auto max-w-300 justify-items-center mb-20">
           <div className="lg:w-1/2 p-4 lg:block hidden">
-            <img src={mypic2} alt="" />
           </div>
           <div className="lg:w-1/2 p-4  text-center md:mx-20 mx-5 ">
             <p className="text-lg">
