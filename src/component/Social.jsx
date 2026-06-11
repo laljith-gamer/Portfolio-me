@@ -8,10 +8,10 @@ const Social = () => {
 
     return (
       <>
-        <div class="social-links">
+        <div className="social-links">
           <div
             id="linkedin"
-            class="social-btn flex-center"
+            className="social-btn flex-center"
             onClick={() => navigateurl("https://www.linkedin.com/in/laljith-v")}
           >
             <svg
@@ -27,7 +27,7 @@ const Social = () => {
 
           <div
             id="github"
-            class="social-btn flex-center"
+            className="social-btn flex-center"
             onClick={() => navigateurl("https://github.com/laljith-gamer")}
           >
             <svg

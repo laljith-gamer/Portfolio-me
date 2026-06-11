@@ -1,6 +1,7 @@
 import './App.css'
 import Aboutme from './component/Aboutme'
 import Home from './component/Home'
+import Projects from './component/Projects'
 import Social from './component/Social'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Social />
       <Aboutme />
+      <Projects />
 
     </>
   )

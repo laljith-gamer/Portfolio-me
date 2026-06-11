@@ -10,7 +10,7 @@ const Home = () => {
           initial={{ opacity: 0, y: 70, scale: 0.9, filter: "blur(10px)" }}
           animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.8, ease: "ease",delay: 0.3 }}
-          className="relative text-transparent bg-clip-text bg-[linear-gradient(#aaaaaa,#000000)] bottom-0 text-center uppercase text-7xl"
+          className="relative text-transparent bg-clip-text bg-[linear-gradient(#ffffff,#bca7ff)] bottom-0 text-center uppercase text-7xl"
         >
           laljith V
         </motion.h1>
