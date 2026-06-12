@@ -41,8 +41,7 @@ const Home = () => {
           transition={{ duration: 0.8, ease: "backInOut", delay: 0.3 }}
         >
           AI/ML & Full-Stack Developer | Building Video Understanding Systems
-          using Next.js, Hugging Face contributor & Tree-Based Summarizer and
-          Vibe Coder using Codex and Claude
+          using Next.js
         </motion.h1>
       </div>
     </>
