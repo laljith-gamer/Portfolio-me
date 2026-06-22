@@ -9,7 +9,7 @@ const projects = [
     title: "Video Understanding System",
     description:
       "A full-stack AI tool that turns video input into clear, searchable understanding for faster review and analysis.",
-    link: "https://example.com",
+    link: "https://github.com/laljith-gamer/visual_ai_editor",
   },
 ];
 
