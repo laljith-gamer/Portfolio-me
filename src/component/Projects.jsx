@@ -11,30 +11,6 @@ const projects = [
       "A full-stack AI tool that turns video input into clear, searchable understanding for faster review and analysis.",
     link: "https://example.com",
   },
-  {
-    title: "Tree-Based Summarizer",
-    description:
-      "A structured summarization project focused on breaking large content into useful branches of meaning.",
-    link: "https://example.com",
-  },
-  {
-    title: "AI Workflow Automation",
-    description:
-      "Automation experiments that connect AI reasoning with practical workflows, reducing repetitive manual effort.",
-    link: "https://example.com",
-  },
-  {
-    title: "Full-Stack Portfolio",
-    description:
-      "A personal portfolio built with React, Vite, Tailwind CSS, and motion-driven interactions.",
-    link: "https://example.com",
-  },
-  {
-    title: "Hugging Face Experiments",
-    description:
-      "Model and dataset experiments exploring AI/ML ideas through practical prototypes and community tools.",
-    link: "https://example.com",
-  },
 ];
 
 const Projects = () => {
