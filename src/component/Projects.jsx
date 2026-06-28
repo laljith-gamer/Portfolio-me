@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
+import aiVideoEditor from "../assets/ai_video_editor.png";
 
 const AUTO_SCROLL_DELAY = 3000;
 const AUTO_SCROLL_RESUME_DELAY = 8000;
@@ -10,6 +11,7 @@ const projects = [
     description:
       "A full-stack AI tool that turns video input into clear, searchable understanding for faster review and analysis.",
     link: "https://github.com/laljith-gamer/visual_ai_editor",
+    image: aiVideoEditor,
   },
 ];
 
@@ -178,6 +180,16 @@ const Projects = () => {
                     }`}
                   >
                     <div className="project-card-face project-card-front">
+                      {project.image && (
+                        <img
+                          className="project-card-thumb"
+                          src={project.image}
+                          alt=""
+                          aria-hidden="true"
+                          loading="lazy"
+                          draggable="false"
+                        />
+                      )}
                       <span className="project-card-number">
                         {String(index + 1).padStart(2, "0")}
                       </span>

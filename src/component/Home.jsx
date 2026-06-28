@@ -9,7 +9,7 @@ const Home = () => {
         <motion.h1
           initial={{ opacity: 0, y: 70, scale: 0.9, filter: "blur(10px)" }}
           animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
-          transition={{ duration: 0.8, ease: "ease",delay: 0.3 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
           className="relative text-transparent bg-clip-text bg-[linear-gradient(#ffffff,#bca7ff)] bottom-0 text-center uppercase text-7xl"
         >
           laljith V
@@ -18,6 +18,7 @@ const Home = () => {
           <motion.img
             src={mine}
             alt=""
+            aria-hidden="true"
             initial={{ opacity: 0, scale: 0.7, filter: "blur(10px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -26,23 +27,23 @@ const Home = () => {
 
           <motion.img
             src={mypic}
-            alt=""
+            alt="Portrait of Laljith V"
             initial={{ opacity: 0, scale: 0.7, filter: "blur(10px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
-            className="size-75 rounded-full object-cover absolute -top-28 "
+            className="size-75 rounded-full object-cover absolute -top-28 left-1/2 -translate-x-1/2"
           />
         </motion.div>
 
-        <motion.h1
-          className="w-180 text-center  text-2xl"
+        <motion.p
+          className="w-full max-w-2xl px-4 text-center text-2xl"
           initial={{ opacity: 0, y: 20, filter: "blur(5px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.8, ease: "backInOut", delay: 0.3 }}
         >
-          AI/ML & Full-Stack Developer | Building Video Understanding Systems
+          AI/ML &amp; Full-Stack Developer | Building Video Understanding Systems
           using Next.js
-        </motion.h1>
+        </motion.p>
       </div>
     </>
   );

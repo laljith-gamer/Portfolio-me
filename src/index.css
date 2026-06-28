@@ -43,7 +43,7 @@ body::after {
 }
 
 *{
-    font-family: outfit;
+    font-family: "Outfit", sans-serif;
 }
 
 ::selection{
@@ -65,6 +65,7 @@ body::after {
     width: 50px;
     font-family: 'Titillium Web', sans-serif;
     color: #333;
+    text-decoration: none;
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     background: white;
@@ -108,7 +109,7 @@ body::after {
     fill: #0e76a8;
 }
 
-#github {
+#github svg {
     fill: #333;
 }
 
@@ -280,6 +281,26 @@ body::after {
     box-shadow:
         inset 0 1px 0 rgba(255, 255, 255, 0.22),
         inset -18px 0 32px rgba(3, 2, 16, 0.34);
+}
+
+.project-card-thumb {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.32;
+    -webkit-mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.25) 100%);
+    mask-image: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.25) 100%);
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.project-card.is-active .project-card-thumb,
+.project-card:hover .project-card-thumb,
+.project-card:focus-visible .project-card-thumb {
+    opacity: 0.45;
 }
 
 .project-card-front h2,
